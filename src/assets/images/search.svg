@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.062" y1="-0.57" x2="-0.349" y2="1.862" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fc00ff"/>
+      <stop offset="1" stop-color="#00dbde"/>
+    </linearGradient>
+    <clipPath id="clip-search">
+      <rect width="88" height="88"/>
+    </clipPath>
+  </defs>
+  <g id="search" clip-path="url(#clip-search)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="88" height="88" fill="none"/>
+    <g id="Group_438" data-name="Group 438" transform="translate(-1144 -681)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="88" height="88" rx="44" transform="translate(1144 681)" fill="url(#linear-gradient)"/>
+      <g id="search-2" data-name="search" transform="translate(1168 705)">
+        <path id="Path_19" data-name="Path 19" d="M25.68,25.8l7.92,7.8Zm-9.172,3.354A12.579,12.579,0,1,0,4,16.578,12.579,12.579,0,0,0,16.508,29.154Z" transform="translate(1.198 1.197)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_20" data-name="Path 20" d="M0,0H40V40H0Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

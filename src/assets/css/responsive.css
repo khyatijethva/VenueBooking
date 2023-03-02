@@ -1,0 +1,423 @@
+@media screen and (max-width: 1499px) {
+    .container{
+        max-width: 90%;
+    }
+    .container-fluid {
+        padding: 0 40px;
+    }
+    h1 {
+        font-size: 56px;
+    }
+    h2 {
+        font-size: 42px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    .venue-content h1 {
+        margin-bottom: 20px;
+        max-width: 800px;
+    }
+    .venue-content p {
+        font-size: 18px;
+        max-width: 800px;
+    }
+    img.colour-bg {
+        top: 0;
+        left: 0;
+    }
+    .review-wrapper::before {
+        max-width: 90%;
+    }
+    .footer-section {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1299px){
+    .location-wrap {
+        max-width: 90%;
+        padding: 40px;
+    }
+    .venue-form .width{
+        width: 20%;
+        padding-right: 30px;
+    }
+    .venue-form .maps.width {
+        width: 30%;
+    }
+    .venue-form .width::after {
+        right: 20px;
+    }
+    .venue-form .search-btn.width {
+        width: 10% !important;
+    }
+    .search-btn button img {
+        max-width: 70px;
+    }
+    .book_venue {
+        padding-bottom: 0;
+    }
+    .review-border {
+        padding: 60px;
+    }
+    .review-data {
+        padding-bottom: 30px;
+    }
+    .booking-accordion .card .card-header button.btn {
+        font-size: 20px;
+    }
+    .blog-box img {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .container {
+        max-width: 95%;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .venue-content, .banner-section .owl-dots {
+        padding: 0 60px;
+    }
+    .venue-content{
+        padding-bottom: 150px;
+    }
+    .button-toggle {
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .button-toggle ul.notifications {
+        margin-right: 25px;
+        display: block;
+    }
+    button.navbar-toggler{
+        background: var(--gradiant);
+        border: 0;
+        border-radius: 0;
+        padding: 8px;
+    }
+    button.navbar-toggler span {
+        height: 3px;
+        background-color: var(--white);
+        width: 24px;
+        display: block;
+        margin-bottom: 4px;
+        border-radius: 7px;
+        position: relative;
+        transition: all 0.2s linear;
+    }
+    button.navbar-toggler span:last-child{
+        margin: 0;
+    }
+    button.navbar-toggler.not-collapsed span:first-child{
+        transform: rotate(45deg);
+        top: 7px;
+    }
+    button.navbar-toggler.not-collapsed span:nth-child(2){
+        opacity: 0;
+    }
+    button.navbar-toggler.not-collapsed span:last-child{
+        transform: rotate(-45deg);
+        top: -7px;
+    }
+    .navbar-collapse {
+        padding: 10px 15px 30px;
+        position: absolute;
+        width: calc(100% + 30px);
+        right: -15px;
+        background: #F1EFFF;
+        z-index: 9;
+        margin-top: 30px;
+    }
+    ul.navbar-nav li.nav-item {
+        padding: 8px 0;
+    }
+    .header-wrap ul.navbar-nav li.nav-item.active a::after{
+        display: none;
+    }
+    .right-header {
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+    .right-header ul.notifications {
+        display: none;
+    }
+    .right-header button.btn {
+        margin-right: 15px;
+    }
+    .venue-form .width{
+        width: 50% !important;
+        margin-bottom: 30px;
+    }
+    .venue-form .search-btn.width{
+        margin-bottom: 0;
+    }
+    .banner-section .owl-dots {
+        bottom: 100px;
+    }
+    section.location-search {
+        transform: translateY(-90px);
+    }
+    .news-desc {
+        padding: 20px 15px;
+    }
+    .news-desc img{
+        min-height: auto !important;
+        max-width: 23px;
+    }
+    .event-tab ul.nav-tabs li.nav-item a {
+        font-size: 18px;
+    }
+    .booking-accordion .card .card-header button.btn {
+        font-size: 20px;
+    }
+    .book_venue .row {
+        flex-direction: column-reverse;
+    }
+    img.colour-bg {
+        display: none;
+    }
+    img.shape-2 {
+        max-width: 50%;
+        top: 0;
+    }
+    .review-wrapper::before {
+        max-width: 95%;
+    }
+    .footer-menu ul li {
+        padding: 0 14px;
+    }
+    .copyrights {
+        margin-top: 25px;
+        padding: 20px 0;
+    }
+    .footer-section {
+        padding-top: 100px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    body{
+        font-size: 14px;
+    }
+    .container-fluid {
+        padding: 0 15px;
+    }
+    .container {
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .main-home {
+        background-size: contain;
+    }
+    .venue-content, .banner-section .owl-dots {
+        padding: 0 30px;
+    }
+    .venue-content p {
+        font-size: 16px;
+    }
+    .venue-content {
+        top: 10%;
+        padding-bottom: 100px;
+    }
+    .button-toggle ul.notifications {
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+    ul.notifications li {
+        padding-left: 12px;
+    }
+    ul.notifications li svg {
+        font-size: 18px;
+    }
+    ul.notifications li a::after {
+        width: 12px;
+        height: 12px;
+    }
+    .venue-form .maps.width{
+        width: 100% !important;
+    }
+    .venue-form .width::after{
+        display: none;
+    }
+    .venue-form .search-btn.width {
+        width: 50% !important;
+    }
+    .location-wrap {
+        padding: 40px 20px 20px;
+    }
+    .date-picker .b-form-btn-label-control label.form-control, .map h6 {
+        font-size: 14px;
+    }
+    .map-label {
+        font-size: 12px;
+    }
+    .venue-form .width {
+        padding-right: 0;
+    }
+    .search-btn button img {
+        max-width: 50px;
+    }
+    .venue-form {
+        align-items: flex-start;
+    }
+    .venue-image img{
+        max-height: inherit;
+    }
+    .event-box img, .part-column .event-box img{
+        height: auto;
+        min-height: 150px;
+    }
+    .event-tab ul.nav-tabs li.nav-item a {
+        font-size: 16px;
+        padding: 0 0 5px 0;
+        margin-right: 20px;
+    }
+    .event-tab ul.nav-tabs {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    ul.tags {
+        margin: 0 -5px;
+    }
+    ul.tags li {
+        padding: 12px 15px;
+        margin: 5px;
+    }
+    ul.tags li a {
+        font-size: 12px;
+    }
+    .booking-accordion .card .card-header button.btn {
+        font-size: 16px;
+    }
+    .booking-accordion .card .card-body {
+        font-size: 14px;
+    }
+    .booking-accordion .card {
+        padding: 25px 20px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+    section.section {
+        padding-top: 60px;
+    }
+    .coloured-heading {
+        padding-bottom: 10px;
+    }
+    .coloured-heading h3 br {
+        display: none;
+    }
+    .review-border {
+        padding: 30px;
+    }
+    .review-border .owl-nav {
+        margin-top: 25px;
+    }
+    .review-data {
+        padding-bottom: 10px;
+    }
+    .blog-box img {
+        height: auto;
+        max-height: 400px;
+        min-height: 150px;
+    }
+    .flex-head {
+        padding-bottom: 30px;
+    }
+    .choose-venue {
+        padding: 40px 30px;
+    }
+
+    .footer-section {
+        padding-top: 60px;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer-social ul{
+        text-align: center;
+    }
+    .footer-menu {
+        padding-bottom: 30px;
+    }
+    .footer-menu ul li {
+        padding: 0 10px;
+    }
+    img.client-shape{
+        top: 0;
+    }
+    .slider_event .owl-nav .owl-prev, .slider_event .owl-nav .owl-next,
+    .slider_event .owl-nav .owl-prev:hover, .slider_event .owl-nav .owl-next:hover {
+        left: 0;
+    }
+    .slider_event .owl-nav .owl-next, .slider_event .owl-nav .owl-next:hover{
+        right: 0;
+        left: auto;
+    }
+
+    .login-wrapper, .signup-wrapper {
+        padding: 50px 30px;
+    }
+    .forgot-pass p {
+        font-size: 14px;
+    }
+    .close-form {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .login-copyrights {
+        opacity: 1;
+    }
+    .btn.btn-logins {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .btn.btn-logins img {
+        position: relative;
+        left: 0;
+        margin-right: 10px;
+        max-width: 18px;
+    }
+    .login-section form .form-control {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+}
